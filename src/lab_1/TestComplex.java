@@ -55,9 +55,22 @@ public class TestComplex {
 
         // сложение и вычитание
         num_1 = new Complex(0 + new Random().nextDouble()*10.0, 0 + new Random().nextDouble()*10.0);
+        System.out.print("1-е число = ");
+        num_1.print();
+
+        System.out.println();
+
         num_2 = new Complex(0 + new Random().nextDouble()*10.0, 0 + new Random().nextDouble()*10.0);
+        System.out.print("2-е число = ");
+        num_2.print();
+
+        System.out.println();
+
+        System.out.println("Результат их сложения:");
         num_3 = new Complex().addittion(num_1, num_2);
         num_3.print();
+
+        System.out.println("Результат их вычитания:");
         num_4 = new Complex().substraction(num_1, num_2);
         num_4.print();
     }
