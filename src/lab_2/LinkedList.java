@@ -68,7 +68,8 @@ public class LinkedList {
         System.out.println();
     }
 
-    //
+    // TODO: переделать с индекса на значение!
+
     protected void purgeIndexedElement(long index) {
 
         try {
