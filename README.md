@@ -1,18 +1,11 @@
-## Getting Started
+# Лабораторные работы
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Что, где и как
 
-## Folder Structure
+1. В каталоге ```src``` лежат пакеты с программами по заданию каждой из лабораторных в формате ```lab_{ номер работы }/{ файлы классов }```
 
-The workspace contains two folders by default, where:
+2. В каталог ```bin``` помещаются скомпилированные классы по работам; ```.jar```-файлы пока не собираю - планирую сделать скрипт, собирающий кроссплатформенный исполняемый файл для каждого отдельного пакета
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+3. Комментариями "```// TODO: ...```" описаны недоделанные моменты
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. Внутренние компоненты классов реализуемых сущностей и логика метода ```main``` классов тестирования сопровождаются комментариями
